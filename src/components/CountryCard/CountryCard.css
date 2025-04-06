@@ -7,6 +7,11 @@ div {
   width: 19rem;
   background-color: var(--elementsColor);
   color: var(--textColor);
+  box-shadow: 0 0 10px -5px rgb(67, 67, 67);
+  transition: all ease 300ms;
+}
+.card:hover {
+  scale: 1.03;
 }
 .cardTitle {
   font-weight: 800;

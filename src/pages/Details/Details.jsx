@@ -76,7 +76,9 @@ export default function Details() {
               </div>
               <div>
                 <span>Population : </span>
-                {selectedCountry.population}
+                {selectedCountry.population
+                  ? selectedCountry.population.toLocaleString()
+                  : null}
               </div>
               <div>
                 <span>Region : </span>

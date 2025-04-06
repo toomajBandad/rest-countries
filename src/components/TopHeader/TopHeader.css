@@ -1,0 +1,44 @@
+.TopHeader {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--elementsColor);
+  color: var(--textColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  box-shadow: 0 0 10px -5px rgb(74, 74, 74);
+  position: sticky;
+}
+.TopHeader__theme {
+  cursor: pointer;
+}
+.TopHeader__theme__icon {
+  margin-right: 0.5rem;
+  font-size: 1.7rem;
+}
+@media only screen and (max-width: 600px) {
+  .TopHeader {
+    padding: 1.5rem;
+  }
+  .TopHeader__title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .TopHeader__theme {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .TopHeader {
+    padding: 1.5rem 6rem;
+  }
+  .TopHeader__title {
+    font-size: 1.8rem;
+    font-weight: 800;
+  }
+  .TopHeader__theme {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}

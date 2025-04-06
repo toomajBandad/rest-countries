@@ -1,0 +1,13 @@
+.Home {
+  background-color: var(--mainBackGround);
+  min-height: 90vh;
+}
+.countrycontainer {
+  background-color: var(--mainBackGround);
+}
+.countryWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}

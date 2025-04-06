@@ -1,0 +1,79 @@
+.SearchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mainBackGround);
+  color: var(--textColor);
+}
+
+.SearchBar__inputWrapper {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  box-shadow: 0 0 10px -5px rgb(74, 74, 74);
+  background-color: var(--elementsColor) !important;
+}
+.SearchBar__input {
+  background-color: var(--elementsColor) !important;
+  color: var(--textColor);
+  border: none;
+  outline: none;
+  padding: 0.2rem;
+}
+.inputIcon {
+  font-size: 2rem;
+  color: var(--textColor);
+  margin-right: 1rem;
+}
+.SearchBar__right {
+  width: 15rem;
+  position: relative;
+}
+.SearchBar__region {
+  box-shadow: 0 0 10px -5px rgb(74, 74, 74);
+  border-radius: 5px;
+  background-color: var(--elementsColor) !important;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.regionWrapper {
+  margin-top: 0.2rem;
+  background-color: var(--elementsColor) !important;
+  padding: 0.2rem;
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  z-index: 99;
+}
+.regionItem {
+  padding-left: 1rem;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .SearchBar {
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+  }
+  .SearchBar__left {
+    width:95%;
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .SearchBar {
+    padding: 1.5rem 6rem;
+    flex-direction: row;
+  }
+  .SearchBar__left {
+    width:35%;
+  }
+}

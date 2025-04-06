@@ -1,0 +1,50 @@
+/* The designs were created to the following widths: Mobile: 375px ,Desktop: 1440px */
+
+:root {
+  /* (Dark Mode Elements) */
+  --Dark-Blue: hsl(209, 23%, 22%);
+
+  /* (Dark Mode Background) */
+  --Very-Dark-Blue: hsl(207, 26%, 17%);
+
+  /* (Light Mode Text) */
+  --Very-Dark-Blue: hsl(200, 15%, 8%);
+
+  /* (Light Mode Input) */
+  --Dark-Gray: hsl(0, 0%, 52%);
+
+  /* (Light Mode Background) */
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+
+  /* (Dark Mode Text & Light Mode Elements) */
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  color: var(--textColor);
+}
+.DetailPage {
+  font-size: 16px;
+  /* Weights: 300, 600, 800 */
+}
+
+.light {
+  --mainBackGround: hsl(0, 0%, 98%);
+  --elementsColor: hsl(0, 0%, 100%);
+  --textColor: hsl(200, 15%, 8%);
+  --inputolor: hsl(0, 0%, 52%);
+}
+.dark {
+  --mainBackGround: hsl(207, 26%, 17%);
+  --elementsColor: hsl(209, 23%, 22%);
+  --textColor: hsl(0, 0%, 100%);
+  --inputolor: hsl(0, 0%, 52%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

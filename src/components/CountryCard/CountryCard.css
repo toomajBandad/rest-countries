@@ -1,0 +1,23 @@
+div {
+  padding: 0;
+  margin: 0;
+}
+.card {
+  cursor: pointer;
+  width: 19rem;
+  background-color: var(--elementsColor);
+  color: var(--textColor);
+}
+.cardTitle {
+  font-weight: 800;
+}
+.cardTextHead {
+  font-weight: 600;
+}
+.cardTextinfo {
+  font-weight: 300;
+}
+.cardImg {
+  max-height: 12rem;
+  min-height: 11rem;
+}
